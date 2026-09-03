@@ -1,54 +1,17 @@
-AIM:
+Aim:
 Write a Program to implement control flow statements and looping statements in python.
 
-ALGORITHM:
-ALGORITHM: BEST ALL-ROUND PERFORMER
+Algorithm:
 
-1. Start.
-
-2. Store the batting, bowling and fielding statistics
-   of four cricket players.
-
-3. Calculate the Strike Rate of each player:
-      Strike Rate = (Runs / Balls Faced) × 100
-
-4. Calculate the Economy Rate of each player:
-      Economy Rate = Runs Conceded / Overs Bowled
-
-5. For each player, determine batting performance:
-      a. If Runs >= 50 AND Strike Rate >= 120,
-         display "Excellent Batter".
-      b. Else if Runs >= 30 AND Strike Rate >= 100,
-         display "Good Batter".
-      c. Else if Runs >= 20,
-         display "Average Batter".
-      d. Else display "Poor Batter".
-
-6. Determine bowling performance:
-      a. If Wickets >= 3 AND Economy Rate <= 6,
-         display "Excellent Bowler".
-      b. Else if Wickets >= 2 AND Economy Rate <= 8,
-         display "Good Bowler".
-      c. Else if Wickets >= 1,
-         display "Average Bowler".
-      d. Else display "Poor Bowler".
-
-7. Determine fielding performance:
-      a. If Catches >= 2,
-         display "Outstanding Fielder".
-      b. Else if Catches == 1,
-         display "Active Fielder".
-      c. Else display "Needs Improvement".
-
-8. Determine overall All-Rounder performance:
-      a. If Batter is Excellent AND Bowler is Excellent,
-         display "Star All-Rounder".
-      b. Else if Batter is Good AND Bowler is Good,
-         display "Strong All-Rounder".
-      c. Else if either Batter or Bowler is Good,
-         display "Supporting All-Rounder".
-      d. Else display "Needs Improvement".
-
-9. Display all calculated results.
-
-10. Stop.
+1.Start.
+2.Store runs, balls, wickets, runs conceded, overs, and catches in lists.
+3.Use a for loop to process each player.
+4.Calculate Strike Rate.
+5.Calculate Economy Rate.
+6.Use if-elif-else to determine batting performance.
+7.Use if-elif-else to determine bowling performance.
+8.Use if-elif-else to determine fielding performance.
+9.Use if-elif-else to determine overall all-rounder category.
+10.Display the results.
+11.Repeat until all players are processed.
+12.Stop.
