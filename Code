@@ -1,0 +1,231 @@
+# ---------------- PLAYER 1 ----------------
+runs1 = 148
+balls1 = 50
+fours1 = 6
+sixes1 = 16
+wickets1 = 4
+runs_conceded1 = 29
+overs1 = 2
+catches1 = 3
+
+strike_rate1 = (runs1 / balls1) * 100
+economy1 = runs_conceded1 / overs1
+
+# Batting Performance
+if runs1 >= 50 and strike_rate1 >= 120:
+    batting1 = "Excellent Batter"
+elif runs1 >= 30 and strike_rate1 >= 100:
+    batting1 = "Good Batter"
+elif runs1 >= 20:
+    batting1 = "Average Batter"
+else:
+    batting1 = "Poor Batter"
+
+# Bowling Performance
+if wickets1 >= 3 and economy1 <= 6:
+    bowling1 = "Excellent Bowler"
+elif wickets1 >= 2 and economy1 <= 8:
+    bowling1 = "Good Bowler"
+elif wickets1 >= 1:
+    bowling1 = "Average Bowler"
+else:
+    bowling1 = "Poor Bowler"
+
+# Fielding Performance
+if catches1 >= 2:
+    fielding1 = "Outstanding Fielder"
+elif catches1 == 1:
+    fielding1 = "Active Fielder"
+else:
+    fielding1 = "Needs Improvement"
+
+# Overall Decision
+if batting1 == "Excellent Batter" and bowling1 == "Excellent Bowler":
+    overall1 = "Star All-Rounder"
+elif batting1 == "Good Batter" and bowling1 == "Good Bowler":
+    overall1 = "Strong All-Rounder"
+elif batting1 == "Good Batter" or bowling1 == "Good Bowler":
+    overall1 = "Supporting All-Rounder"
+else:
+    overall1 = "Needs Improvement"
+
+
+# ---------------- PLAYER 2 ----------------
+runs2 = 179
+balls2 = 62
+fours2 = 10
+sixes2 = 21
+wickets2 = 8
+runs_conceded2 = 32
+overs2 = 3
+catches2 = 2
+
+strike_rate2 = (runs2 / balls2) * 100
+economy2 = runs_conceded2 / overs2
+
+if runs2 >= 50 and strike_rate2 >= 120:
+    batting2 = "Excellent Batter"
+elif runs2 >= 30 and strike_rate2 >= 100:
+    batting2 = "Good Batter"
+elif runs2 >= 20:
+    batting2 = "Average Batter"
+else:
+    batting2 = "Poor Batter"
+
+if wickets2 >= 3 and economy2 <= 6:
+    bowling2 = "Excellent Bowler"
+elif wickets2 >= 2 and economy2 <= 8:
+    bowling2 = "Good Bowler"
+elif wickets2 >= 1:
+    bowling2 = "Average Bowler"
+else:
+    bowling2 = "Poor Bowler"
+
+if catches2 >= 2:
+    fielding2 = "Outstanding Fielder"
+elif catches2 == 1:
+    fielding2 = "Active Fielder"
+else:
+    fielding2 = "Needs Improvement"
+
+if batting2 == "Excellent Batter" and bowling2 == "Excellent Bowler":
+    overall2 = "Star All-Rounder"
+elif batting2 == "Good Batter" and bowling2 == "Good Bowler":
+    overall2 = "Strong All-Rounder"
+elif batting2 == "Good Batter" or bowling2 == "Good Bowler":
+    overall2 = "Supporting All-Rounder"
+else:
+    overall2 = "Needs Improvement"
+
+
+# ---------------- PLAYER 3 ----------------
+runs3 = 156
+balls3 = 59
+fours3 = 10
+sixes3 = 17
+wickets3 = 6
+runs_conceded3 = 29
+overs3 = 4
+catches3 = 2
+
+strike_rate3 = (runs3 / balls3) * 100
+economy3 = runs_conceded3 / overs3
+
+if runs3 >= 50 and strike_rate3 >= 120:
+    batting3 = "Excellent Batter"
+elif runs3 >= 30 and strike_rate3 >= 100:
+    batting3 = "Good Batter"
+elif runs3 >= 20:
+    batting3 = "Average Batter"
+else:
+    batting3 = "Poor Batter"
+
+if wickets3 >= 3 and economy3 <= 6:
+    bowling3 = "Excellent Bowler"
+elif wickets3 >= 2 and economy3 <= 8:
+    bowling3 = "Good Bowler"
+elif wickets3 >= 1:
+    bowling3 = "Average Bowler"
+else:
+    bowling3 = "Poor Bowler"
+
+if catches3 >= 2:
+    fielding3 = "Outstanding Fielder"
+elif catches3 == 1:
+    fielding3 = "Active Fielder"
+else:
+    fielding3 = "Needs Improvement"
+
+if batting3 == "Excellent Batter" and bowling3 == "Excellent Bowler":
+    overall3 = "Star All-Rounder"
+elif batting3 == "Good Batter" and bowling3 == "Good Bowler":
+    overall3 = "Strong All-Rounder"
+elif batting3 == "Good Batter" or bowling3 == "Good Bowler":
+    overall3 = "Supporting All-Rounder"
+else:
+    overall3 = "Needs Improvement"
+
+
+# ---------------- PLAYER 4 ----------------
+runs4 = 117
+balls4 = 41
+fours4 = 7
+sixes4 = 9
+wickets4 = 5
+runs_conceded4 = 31
+overs4 = 3
+catches4 = 2
+
+strike_rate4 = (runs4 / balls4) * 100
+economy4 = runs_conceded4 / overs4
+
+if runs4 >= 50 and strike_rate4 >= 120:
+    batting4 = "Excellent Batter"
+elif runs4 >= 30 and strike_rate4 >= 100:
+    batting4 = "Good Batter"
+elif runs4 >= 20:
+    batting4 = "Average Batter"
+else:
+    batting4 = "Poor Batter"
+
+if wickets4 >= 3 and economy4 <= 6:
+    bowling4 = "Excellent Bowler"
+elif wickets4 >= 2 and economy4 <= 8:
+    bowling4 = "Good Bowler"
+elif wickets4 >= 1:
+    bowling4 = "Average Bowler"
+else:
+    bowling4 = "Poor Bowler"
+
+if catches4 >= 2:
+    fielding4 = "Outstanding Fielder"
+elif catches4 == 1:
+    fielding4 = "Active Fielder"
+else:
+    fielding4 = "Needs Improvement"
+
+if batting4 == "Excellent Batter" and bowling4 == "Excellent Bowler":
+    overall4 = "Star All-Rounder"
+elif batting4 == "Good Batter" and bowling4 == "Good Bowler":
+    overall4 = "Strong All-Rounder"
+elif batting4 == "Good Batter" or bowling4 == "Good Bowler":
+    overall4 = "Supporting All-Rounder"
+else:
+    overall4 = "Needs Improvement"
+
+
+# ---------------- DISPLAY RESULTS ----------------
+
+print("========== CRICKET PERFORMANCE ==========")
+
+print("\nPlayer 1")
+print("Strike Rate:", round(strike_rate1, 2))
+print("Economy Rate:", round(economy1, 2))
+print("Batting:", batting1)
+print("Bowling:", bowling1)
+print("Fielding:", fielding1)
+print("Overall:", overall1)
+
+print("\nPlayer 2")
+print("Strike Rate:", round(strike_rate2, 2))
+print("Economy Rate:", round(economy2, 2))
+print("Batting:", batting2)
+print("Bowling:", bowling2)
+print("Fielding:", fielding2)
+print("Overall:", overall2)
+
+print("\nPlayer 3")
+print("Strike Rate:", round(strike_rate3, 2))
+print("Economy Rate:", round(economy3, 2))
+print("Batting:", batting3)
+print("Bowling:", bowling3)
+print("Fielding:", fielding3)
+print("Overall:", overall3)
+
+print("\nPlayer 4")
+print("Strike Rate:", round(strike_rate4, 2))
+print("Economy Rate:", round(economy4, 2))
+print("Batting:", batting4)
+print("Bowling:", bowling4)
+print("Fielding:", fielding4)
+print("Overall:", overall4)
